@@ -1,0 +1,40 @@
+body{ background-color: #001100;
+}
+div.famile{
+    margin-top: auto;
+}
+h1{
+    background-color: turquoise;
+    font-size: ;
+    text-decoration-color: white;
+    margin-top: 2rem;
+ 
+}
+div {margin-bottom: auto;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7rem;
+
+
+    transition: background-color: 0.25s, color 0.2s ;
+    padding: 1rem; 
+}
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 3rem;
+    padding: 1erm;
+
+
+    background: linear-gradient(#365, #375, #385,) 365;
+    color: #fff;
+    cursor: pointer;
+    transition: height 0.66s;
+    overflow: hidden;
+}
+nav:hover {
+    height: 100vh;
