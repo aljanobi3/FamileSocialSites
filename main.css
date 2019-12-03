@@ -1,4 +1,4 @@
-body{ background-color: #001100;
+body{ background-color: #133;
 }
 div.famile{
     margin-top: auto;
@@ -30,7 +30,7 @@ nav{
     padding: 1erm;
 
 
-    background: linear-gradient(#365, #375, #385,) 365;
+    background: linear-gradient(#465, #266, #133);
     color: #fff;
     cursor: pointer;
     transition: height 0.66s;
