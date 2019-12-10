@@ -1,0 +1,58 @@
+body{ background-color: #133;
+    font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+}
+div.famile{
+    margin-top: auto;
+}
+h1{
+    background-color: turquoise;
+    font-size: ;
+    margin-top: 2rem;
+ 
+}
+div {margin-bottom: auto;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 7rem;
+    text-decoration-color: seashell;
+
+    transition: background-color: 0.25s, color 0.2s ;
+    padding: 1rem; 
+}
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 3rem;
+    padding: 1erm;
+    background: linear-gradient(#465, #266, #133);
+    color: #fff;
+    cursor: pointer;
+    transition: height 0.66s;
+    overflow: hidden;
+    
+    font-weight: bold;
+
+    text-shadow: 1px 1px black
+    
+}
+nav:hover {
+    height: 100vh;}
+.topnav{
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    height: 3rem;
+    padding: 1erm;
+    transition: height 0.66s;
+}
+.box1{
+    background: lavender;
+}
+
+            

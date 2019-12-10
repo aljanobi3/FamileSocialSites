@@ -1,13 +1,29 @@
 body{ background-color: #133;
+    font-family: Arial, Helvetica, sans-serif;}
+
+ {box-sizing: border-box;
+}
+.img { 
+  width: 100%;
+  height:100vh;  
+ 
+
+  
+
+  min-width: %;
+  min-height: 100%;
+}
 }
 div.famile{
     margin-top: auto;
 }
 h1{
     background-color: turquoise;
-    font-size: ;
     text-decoration-color: white;
     margin-top: 2rem;
+    font-family: 'Sofia';
+    font-size: 25px;
+    font-size-adjust: initial;
  
 }
 div {margin-bottom: auto;
@@ -17,8 +33,6 @@ div {margin-bottom: auto;
     text-align: center;
     font-weight: bold;
     border-radius: 7rem;
-
-
     transition: background-color: 0.25s, color 0.2s ;
     padding: 1rem; 
 }
@@ -28,13 +42,164 @@ nav{
     left:0;
     height: 3rem;
     padding: 1erm;
-
-
     background: linear-gradient(#465, #266, #133);
+    background: ;
     color: #fff;
     cursor: pointer;
     transition: height 0.66s;
     overflow: hidden;
+
+    font-weight: bold;
+
+    text-shadow: 1px 1px black
+}
+.topnav{
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    height: 3rem;
+    padding: 1erm;
+    transition; height: 0.66s;
 }
 nav:hover {
-    height: 100vh;
+    height: 100vh;}
+.account{position: fixed;
+    cursor: pointer;
+    top: 1;
+    right: 0;
+    height: 2rem;
+    padding: 3rem;
+    transition: height 0.66s;}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.socil{ 
+    
+  margin-top: auto;
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  height: 3rem;
+  padding: 1rem;
+  transition; height: 0.66s;
+    
+}
